@@ -190,10 +190,10 @@ const LandingPage = () => {
                 Create perfect character builds with our visual builder. Plan your stats, equipment, and skills before spending your precious zeny in-game!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
+                <Link to="/builder" className="bg-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
                   <Zap className="w-5 h-5" />
                   <span>Start Building Now</span>
-                </button>
+                </Link>
                 <button onClick={() => scrollToSection('pricing')} className="border-2 border-indigo-600 text-indigo-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-indigo-50 transition-all flex items-center justify-center space-x-2">
                   <Target className="w-5 h-5" />
                   <span>See Pricing</span>
