@@ -7,7 +7,7 @@ import BuildSaveSlots from './components/BuildSaveSlots';
 import MetaBuildsPanel, { MetaBuild } from './components/MetaBuildsPanel';
 import BuildMetadata, { BuildMetadataValue } from './components/BuildMetadata';
 // import ImageExportButton from './components/ImageExportButton'; // Optional
-import { GiBroadsword, GiShield, GiArmorVest, GiBoots, GiCape, GiRing, GiAmulet, GiLaurelCrown, GiLipstick, GiEyelashes, GiTalisman } from 'react-icons/gi';
+import { GiBroadsword, GiShield, GiArmorVest, GiBoots, GiCape, GiRing, GiLaurelCrown, GiLipstick, GiEyelashes, GiItalia } from 'react-icons/gi';
 
 const EQUIPMENT_SLOTS = [
   { key: 'weapon', label: 'Weapon', icon: <GiBroadsword /> },
@@ -17,7 +17,7 @@ const EQUIPMENT_SLOTS = [
   { key: 'garment', label: 'Garment', icon: <GiCape /> },
   { key: 'accessory1', label: 'Accessory 1', icon: <GiRing /> },
   { key: 'accessory2', label: 'Accessory 2', icon: <GiRing /> },
-  { key: 'talisman', label: 'Talisman', icon: <GiTalisman /> },
+  { key: 'talisman', label: 'Talisman', icon: <GiItalia /> },
   { key: 'head', label: 'Head', icon: <GiLaurelCrown /> },
   { key: 'mouth', label: 'Mouth', icon: <GiLipstick /> },
   { key: 'eyes', label: 'Eyes', icon: <GiEyelashes /> },
